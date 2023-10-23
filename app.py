@@ -1,4 +1,5 @@
 from flask import render_template
+from json import JSONEncoder
 import connexion
 
 app = connexion.App(__name__, specification_dir="./")
